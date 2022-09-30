@@ -11,6 +11,6 @@ public class Homework8 {
         System.out.printf("Car average speed is  %.2f  miles per hour.",avarageSpeed);
 
         //This program calculates vehicle average speed given a time and distance traveled.
-        //Car average speed is  8,780488  miles per hour.
+        //Car average speed is  8,78  miles per hour.
     }
 }
