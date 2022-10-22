@@ -1,9 +1,9 @@
 package erenshomework;
 public class Homework3 {
     public static void main(String[] args) {
-        sayial();
+        sayiAl();
     }
-    public static void sayial() {
+    public static void sayiAl() {
 
         java.util.Scanner input = new java.util.Scanner(System.in);
         System.out.print("Bir sayi giriniz: ");
