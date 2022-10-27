@@ -29,9 +29,9 @@ public class IsAmstrongg {
         return count;
     }
 
-    public static int pow(int number, int b) {
+    public static int pow(int number, int a) {
         int result = 1;
-        while (b-- > 0) {
+        while (a-- > 0) {
             result *= number;
         }
         return result;
