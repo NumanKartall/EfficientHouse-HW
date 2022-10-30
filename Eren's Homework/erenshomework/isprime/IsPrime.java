@@ -6,7 +6,7 @@ public class IsPrime {
     }
 
     public static void test() {
-        for (int i = 2; i < 999999L; i++) {
+        for (long i = 2; i < 999999L; i++) {
             if (isPrime(i))
                 System.out.printf("%d This is prime number.%n", i);
             else
@@ -16,7 +16,7 @@ public class IsPrime {
 
     public static boolean isPrime(long number) {
 
-        for (int i = 2; i < number; i++) {
+        for (long i = 2; i < number; i++) {
             if (number % i == 0)
                 return false;
         }
