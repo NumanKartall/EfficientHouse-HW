@@ -17,7 +17,10 @@ public class IsPrime {
     }
 
     public static boolean isPrime(long number) {
-
+        
+        if (number < 2){
+            return false;
+        }
         for (long i = 2; i < number; i++) {
             
             if (number % i == 0)
