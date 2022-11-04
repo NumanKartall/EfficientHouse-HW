@@ -1,6 +1,6 @@
 package chapter3programmingprojects;
 
-public class Homework6 {
+public class Homework7 {
     public static void main(String[] args) {
         run();
     }
