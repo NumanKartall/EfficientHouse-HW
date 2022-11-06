@@ -18,7 +18,7 @@ public class Homework4 {
         System.out.println("Enter the inflation: ");
         double inflation = inp.nextDouble();
 
-        System.out.printf("%.2f", costAndInflation(cost, year, inflation));
+        System.out.printf("Update cost: %.2f", costAndInflation(cost, year, inflation));
     }
 
     public static double costAndInflation(double cost, int year, double inflation) {
